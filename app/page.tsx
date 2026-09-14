@@ -129,7 +129,7 @@ export default function Home() {
             <p>如果你正在考虑怎么把 AI 用进真实业务，可以加我微信，聊聊你现在最想梳理的一段工作流程。</p>
           </div>
           <div className="wechat-card">
-            <div className="qr-placeholder" aria-label="微信二维码待补充"><span>微信二维码</span><small>【待确认】</small></div>
+            <img className="wechat-qr" src="./wechat-qr.jpg" alt="郑常心 Sylvia 的微信二维码" />
             <p>扫一扫，加我微信</p>
           </div>
         </div>

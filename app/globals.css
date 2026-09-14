@@ -83,8 +83,7 @@ h1 em { color:var(--blue); font-style:italic; white-space:nowrap; }
 .contact-grid h2 { margin-bottom:26px; font-size:clamp(44px,7vw,68px); line-height:1.12; }
 .contact-grid>div>p { max-width:480px; margin-bottom:0; color:#dfe3ff; font-size:16px; line-height:1.75; }
 .wechat-card { padding:14px; border-radius:8px; background:#fff; color:var(--ink); text-align:center; box-shadow:8px 8px 0 var(--ink); }
-.qr-placeholder { aspect-ratio:1; display:grid; place-content:center; gap:6px; border:1px dashed #9c9c96; background:linear-gradient(45deg,#f1f1ed 25%,transparent 25%) 0 0/16px 16px,linear-gradient(-45deg,#f1f1ed 25%,transparent 25%) 0 0/16px 16px,#fff; font-size:12px; }
-.qr-placeholder small { color:var(--blue); font-size:10px; }
+.wechat-qr { display:block; width:100%; aspect-ratio:1; object-fit:contain; }
 .wechat-card>p { margin:12px 0 2px; font-size:12px; }
 .site-footer { padding:24px 0; background:var(--dark); color:#8f8f88; }
 .site-footer .page-shell { display:flex; justify-content:space-between; font-family:var(--font-geist-mono),monospace; font-size:10px; letter-spacing:.08em; }
