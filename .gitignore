@@ -1,0 +1,74 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/.vinext/
+/out/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+/dist/
+/.wrangler/
+/outputs/
+/work/
+
+# Local project instructions and notes
+/AGENTS.md
+/*.md
+!/README.md
+/.openai/
+
+# Server-capable starter files retained locally for future expansion
+/app/_sites-preview/
+/app/chatgpt-auth.ts
+/app/layout.tsx
+/drizzle.config.ts
+/eslint.config.mjs
+/next-env.d.ts
+/next.config.ts
+/postcss.config.mjs
+/vite.config.ts
+/public/file.svg
+/public/globe.svg
+/public/window.svg
+
+# Private source material and non-site workspace files
+*.docx
+*.pdf
+build_resume_docx.py
+refine_resume_v5.py
+update_resume_v6.py
+/db/
+/drizzle/
+/examples/
+/tests/
+/worker/
+/outputs/
+/work/
