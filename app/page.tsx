@@ -5,14 +5,6 @@ const strengths = [
   { number: "04", title: "做得贴近业务、容易上手", description: "先看真实的工作怎么做、卡在哪里，再设计贴近业务实际、让人容易上手的方案。" },
 ];
 
-const proofPoints = [
-  "四年本地生活大厂经验，覆盖商家经营、商家端、骑手端和客服端",
-  "在骑手端工作两年多，参与优化 12 条核心作业链路；也曾体验送外卖、走访骑手和城市经理",
-  "在客服端工作接近一年，参与客服工作台、机器人转人工，以及真人客服与 AI 协作方式的产品规划",
-  "入职前主动到个体外卖店和连锁加盟店打工，了解真实经营流程",
-  "在 AIESEC 管理国内 28 个分部的 900 多名成员，主导工作流改革和数字化升级，最终总业绩排名 2 / 98",
-];
-
 const process = ["进入现场", "看清流程", "找到核心", "共同改造"];
 
 export default function Home() {
@@ -101,9 +93,10 @@ export default function Home() {
             <p>不是一份完整作品集，先让你快速了解我的业务覆盖和能力范围。</p>
           </div>
           <ul className="proof-list">
-            {proofPoints.map((item, index) => (
-              <li key={item}><span>{String(index + 1).padStart(2, "0")}</span><p>{item}</p><i aria-hidden="true">↗</i></li>
-            ))}
+            <li><span>01</span><p><strong>深入真实业务场景，而非只在办公室理解用户</strong><br />入职外卖业务前，主动到餐饮店工作，了解真实经营流程并带回用户视角；此后持续通过跑外卖、参与客服工作、组织用户圆桌等方式进入真实场景，从一线发现问题。</p><i aria-hidden="true">↗</i></li>
+            <li><span>02</span><p><strong>从设计执行深入上游业务与产品决策</strong><br />不局限于承接既定产品方案，主动参与上游业务与产品规划，以用户体验视角和真实 Demo 帮助业务、产品团队验证和完善方案，共同寻找更优解。</p><i aria-hidden="true">↗</i></li>
+            <li><span>03</span><p><strong>在高复杂度项目中快速组织资源并推动落地</strong><br />3 个月内完成 3000 人规模科技峰会的整体筹办，协调 20+ 家展商及 30+ 位国内外科技领域演讲嘉宾，推动多方角色在高时间压力下完成交付。</p><i aria-hidden="true">↗</i></li>
+            <li><span>04</span><p><strong>以外部专业角色进入组织，从业务诊断走到方案落地</strong><br />带领专家小队深入社区、民非、基金会等公益组织，开展业务诊断、流程设计、创新工作坊与 AI 提效；不以方案本身为终点，以「能用、好用、易用」作为交付标准，推动方案真正进入日常工作流程。</p><i aria-hidden="true">↗</i></li>
           </ul>
           <div className="proof-footnotes">
             <div><strong>方法从哪里来</strong><p>皇家艺术学院服务设计硕士。重视找准核心问题，并用可视化推动团队形成共识。</p></div>
@@ -115,10 +108,9 @@ export default function Home() {
       <section className="section page-shell" id="style">
         <div className="section-index">04 / 我的做事方式</div>
         <div className="style-stack">
-          <article><span>01</span><h3>深入真实业务场景</h3><p>而非只在办公室理解用户。入职外卖业务前，主动到餐饮店工作，了解真实经营流程并带回用户视角；此后持续通过跑外卖、参与客服工作、组织用户圆桌等方式进入真实场景，从一线发现问题。</p></article>
-          <article><span>02</span><h3>从设计执行深入上游决策</h3><p>不局限于承接既定产品方案，主动参与上游业务与产品规划，以用户体验视角和真实 Demo 帮助业务、产品团队验证和完善方案，共同寻找更优解。</p></article>
-          <article><span>03</span><h3>在高复杂度项目中推动落地</h3><p>3 个月内完成 3000 人规模科技峰会的整体筹办，协调 20+ 家展商及 30+ 位国内外科技领域演讲嘉宾，推动多方角色在高时间压力下完成交付。</p></article>
-          <article><span>04</span><h3>以外部专业角色进入组织</h3><p>带领专家小队深入社区、民非、基金会等公益组织，开展业务诊断、流程设计、创新工作坊与 AI 提效；不以方案本身为终点，以「能用、好用、易用」作为交付标准，推动方案真正进入日常工作流程。</p></article>
+          <article><span>01</span><h3>走进去</h3><p>去门店打工、体验送外卖、走访骑手和客服职场。真实工作是什么样，先亲眼看看。</p></article>
+          <article><span>02</span><h3>画出来</h3><p>把用户习惯、操作路径和协作关系变成一张能讨论的图，让复杂问题有共同语言。</p></article>
+          <article><span>03</span><h3>推回去</h3><p>发现上游方案不合理，就用方案和 Demo 重新共创；同时考虑技术限制和实现成本。</p></article>
         </div>
       </section>
 
