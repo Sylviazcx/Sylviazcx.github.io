@@ -115,9 +115,10 @@ export default function Home() {
       <section className="section page-shell" id="style">
         <div className="section-index">04 / 我的做事方式</div>
         <div className="style-stack">
-          <article><span>01</span><h3>走进去</h3><p>去门店打工、体验送外卖、走访骑手和客服职场。真实工作是什么样，先亲眼看看。</p></article>
-          <article><span>02</span><h3>画出来</h3><p>把用户习惯、操作路径和协作关系变成一张能讨论的图，让复杂问题有共同语言。</p></article>
-          <article><span>03</span><h3>推回去</h3><p>发现上游方案不合理，就用方案和 Demo 重新共创；同时考虑技术限制和实现成本。</p></article>
+          <article><span>01</span><h3>深入真实业务场景</h3><p>而非只在办公室理解用户。入职外卖业务前，主动到餐饮店工作，了解真实经营流程并带回用户视角；此后持续通过跑外卖、参与客服工作、组织用户圆桌等方式进入真实场景，从一线发现问题。</p></article>
+          <article><span>02</span><h3>从设计执行深入上游决策</h3><p>不局限于承接既定产品方案，主动参与上游业务与产品规划，以用户体验视角和真实 Demo 帮助业务、产品团队验证和完善方案，共同寻找更优解。</p></article>
+          <article><span>03</span><h3>在高复杂度项目中推动落地</h3><p>3 个月内完成 3000 人规模科技峰会的整体筹办，协调 20+ 家展商及 30+ 位国内外科技领域演讲嘉宾，推动多方角色在高时间压力下完成交付。</p></article>
+          <article><span>04</span><h3>以外部专业角色进入组织</h3><p>带领专家小队深入社区、民非、基金会等公益组织，开展业务诊断、流程设计、创新工作坊与 AI 提效；不以方案本身为终点，以「能用、好用、易用」作为交付标准，推动方案真正进入日常工作流程。</p></article>
         </div>
       </section>
 
